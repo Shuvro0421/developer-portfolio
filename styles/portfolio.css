@@ -1,7 +1,8 @@
 /* Shared Styles */
 body{
+    font-family: 'Bacasime Antique', serif;
     font-family: 'Kaushan Script', cursive;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .text-primary{
     color: crimson;
@@ -90,10 +91,23 @@ nav a{
         margin-top: 5px;
 }
 /* main sec styles */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+
+}
 /* about section styles */
 .about{
     padding: 130px;
     border-radius: 10px;
-    background-color: #bad2d7;
+    background-color: #d4ebf0;
     margin: 130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-info{
+    text-align: center;
 }
